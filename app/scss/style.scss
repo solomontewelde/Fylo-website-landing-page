@@ -1,0 +1,31 @@
+@import "colors";
+@import "global";
+@import "header";
+
+.hero-contents {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  .hero-text-container {
+    display: inline;
+    width: 40%;
+    font-family: $primaryFont;
+    margin-right: 40px;
+    .hero-title {
+      font-size: 2rem;
+      color: black;
+      margin-bottom: 0px;
+    }
+    .hero-text {
+      font-size: 1rem;
+      color: black;
+      font-weight: 500;
+      margin-top: 0px;
+    }
+  }
+  .hero-image {
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+  }
+}

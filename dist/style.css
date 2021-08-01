@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+}
+
+html {
+  font-size: 100%;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333;
+  background-color: #fff;
+  padding: 0px;
+}
+
+h1 {
+  color: #fff;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+.hero {
+  height: 500px;
+  display: block;
+  border: 1px solid #ccc;
+}
+
+.hero .blue-gradient-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.hero .blue-gradient-hero #logo {
+  width: 166px;
+  height: 49px;
+}
+
+.hero .blue-gradient-hero nav li {
+  display: inline-block;
+  list-style: none;
+}
+
+.hero .blue-gradient-hero nav li a,
+.hero .blue-gradient-hero nav li button {
+  font-size: 1rem;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.hero .blue-gradient-hero nav li button {
+  color: #fff;
+  background-color: #3065f8;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 32px;
+  margin-left: 30px;
+  -webkit-box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
+          box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
+}
+
+.hero #logo {
+  width: 166px;
+  height: 49px;
+}
+
+.hero nav li {
+  display: inline-block;
+  list-style: none;
+}
+
+.hero nav li a,
+.hero nav li button {
+  font-size: 1rem;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.hero nav li button {
+  color: #fff;
+  background-color: #3065f8;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 32px;
+  margin-left: 30px;
+  -webkit-box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
+          box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
+}
+
+.hero-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-contents .hero-text-container {
+  display: inline;
+  width: 40%;
+  font-family: Raleway;
+  margin-right: 40px;
+}
+
+.hero-contents .hero-text-container .hero-title {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.hero-contents .hero-text-container .hero-text {
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.hero-contents .hero-image {
+  width: 500px;
+  height: 400px;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
