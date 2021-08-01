@@ -1,11 +1,13 @@
 @import "colors";
 @import "global";
+@import "buttons";
 @import "header";
 
 .hero-contents {
   display: flex;
-  border: 1px solid black;
+  border: 1px solid blue;
   align-items: center;
+  padding: 0 8px; //right and left padding
   .hero-text-container {
     display: inline;
     width: 40%;
@@ -13,7 +15,7 @@
     margin-right: 40px;
     .hero-title {
       font-size: 2rem;
-      color: black;
+      color: $white;
       margin-bottom: 0px;
     }
     .hero-text {

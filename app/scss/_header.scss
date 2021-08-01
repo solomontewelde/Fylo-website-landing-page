@@ -1,14 +1,14 @@
 @import "fonts";
 
-.hero {
-  height: 500px;
+.header-container {
+  height: 50%; //todo header container height is becoming smaller than the content height in smaller screens
   display: block;
-  border: 1px solid #ccc;
-  //background: linear-gradient(0.25turn, $darkBlue, 75%, $softBlue);
+  border: 2px solid red;
+  background: linear-gradient(0.25turn, $darkBlue, 75%, $softBlue);
   .blue-gradient-hero {
     display: flex;
     justify-content: space-between;
-    border: 1px solid #ccc;
+    border: 2px solid red;
     padding: 8px;
 
     #logo {
@@ -22,47 +22,12 @@
         list-style: none;
         a,
         button {
+          color: $white;
           font-size: 1rem;
           font-family: $primaryFont;
           font-size: 1rem;
           font-weight: 500;
         }
-        button {
-          color: $white;
-          background-color: $brightBlue;
-          border: none;
-          border-radius: 2px;
-          padding: 10px 32px;
-          margin-left: 30px;
-          box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
-        }
-      }
-    }
-  }
-  #logo {
-    width: 166px;
-    height: 49px;
-  }
-
-  nav {
-    li {
-      display: inline-block;
-      list-style: none;
-      a,
-      button {
-        font-size: 1rem;
-        font-family: $primaryFont;
-        font-size: 1rem;
-        font-weight: 500;
-      }
-      button {
-        color: $white;
-        background-color: $brightBlue;
-        border: none;
-        border-radius: 2px;
-        padding: 10px 32px;
-        margin-left: 30px;
-        box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
       }
     }
   }

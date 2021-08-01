@@ -35,89 +35,93 @@ a:visited {
   text-decoration: none;
 }
 
-.hero {
-  height: 500px;
-  display: block;
-  border: 1px solid #ccc;
+button.green-button,
+a.button.green-button {
+  color: #fff;
+  background-color: green;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 32px;
+  margin-left: 30px;
+  -webkit-box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
+          box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
+  cursor: pointer;
+  -webkit-transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.1s ease-in-out;
 }
 
-.hero .blue-gradient-hero {
+button.green-button:hover,
+a.button.green-button:hover {
+  background-color: #006700;
+}
+
+button.blue-button,
+a.button.blue-button {
+  color: #fff;
+  background-color: #3065f8;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 32px;
+  margin-left: 30px;
+  -webkit-box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
+          box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
+  cursor: pointer;
+  -webkit-transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.1s ease-in-out;
+}
+
+button.blue-button:hover,
+a.button.blue-button:hover {
+  background-color: #1753f7;
+}
+
+.header-container {
+  height: 50%;
+  display: block;
+  border: 2px solid red;
+  background: -webkit-gradient(linear, left top, right top, from(#282385), color-stop(75%), to(#bbb8fa));
+  background: linear-gradient(0.25turn, #282385, 75%, #bbb8fa);
+}
+
+.header-container .blue-gradient-hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 1px solid #ccc;
+  border: 2px solid red;
   padding: 8px;
 }
 
-.hero .blue-gradient-hero #logo {
+.header-container .blue-gradient-hero #logo {
   width: 166px;
   height: 49px;
 }
 
-.hero .blue-gradient-hero nav li {
+.header-container .blue-gradient-hero nav li {
   display: inline-block;
   list-style: none;
 }
 
-.hero .blue-gradient-hero nav li a,
-.hero .blue-gradient-hero nav li button {
+.header-container .blue-gradient-hero nav li a,
+.header-container .blue-gradient-hero nav li button {
+  color: #fff;
   font-size: 1rem;
   font-family: Raleway;
   font-size: 1rem;
   font-weight: 500;
-}
-
-.hero .blue-gradient-hero nav li button {
-  color: #fff;
-  background-color: #3065f8;
-  border: none;
-  border-radius: 2px;
-  padding: 10px 32px;
-  margin-left: 30px;
-  -webkit-box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
-          box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
-}
-
-.hero #logo {
-  width: 166px;
-  height: 49px;
-}
-
-.hero nav li {
-  display: inline-block;
-  list-style: none;
-}
-
-.hero nav li a,
-.hero nav li button {
-  font-size: 1rem;
-  font-family: Raleway;
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.hero nav li button {
-  color: #fff;
-  background-color: #3065f8;
-  border: none;
-  border-radius: 2px;
-  padding: 10px 32px;
-  margin-left: 30px;
-  -webkit-box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
-          box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
 }
 
 .hero-contents {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid black;
+  border: 1px solid blue;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 8px;
 }
 
 .hero-contents .hero-text-container {
@@ -129,7 +133,7 @@ a:visited {
 
 .hero-contents .hero-text-container .hero-title {
   font-size: 2rem;
-  color: black;
+  color: #fff;
   margin-bottom: 0px;
 }
 

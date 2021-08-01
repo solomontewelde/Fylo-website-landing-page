@@ -1,0 +1,23 @@
+@mixin button($buttonColor: green, $font-color: $white) {
+  color: $font-color;
+  background-color: $buttonColor;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 32px;
+  margin-left: 30px;
+  box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+  &:hover {
+    background-color: darken($buttonColor, 5%);
+  }
+}
+button,
+a.button {
+  &.green-button {
+    @include button(green);
+  }
+  &.blue-button {
+    @include button($brightBlue);
+  }
+}
