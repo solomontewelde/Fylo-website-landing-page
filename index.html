@@ -20,13 +20,12 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      <href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
   
-    <header class="header-container">
-        <div class="blue-gradient-hero">
+    <header class="main">
+        <div class="logo-navigation">
           <a href="index.html"><img id="logo" src="/dist/images/logo.svg"/></a>>
                 <nav>
           <ul>
@@ -35,22 +34,73 @@
           </ul>
                 </nav>
         </div>
-      <section class="hero-contents" >
-        <div class="hero-contents"> 
+      <section>
+        <div class="hero"> 
           <div class="hero-text-container">
           <h1 class="hero-title">All your files in one secure location, accessible anywhere.</h1>
-          <h2 class="hero-text">Fylo stores your most important files in one secure location. Access them whereever your need, share and collaborate with friends, family, and co-workers.</h2>
-          </div>
-          <img class="hero-image" src="/dist/images/illustration-1.svg" alt="Illustration" />
+          <p class="hero-text">Fylo stores your most important files in one secure location. Access them whereever your need, share and collaborate with friends, family, and co-workers.</p>
+          <form class="email-form">
+              <input class="input-field" autocomplete="email" placeholder="Enter your email..." type="email">
+              <button id="submit-button"class="blue-button" type="submit">Get Started</button>
+          </form>
         </div>
-      </section>
-    </header>
-    <footer>
+          <img class="hero-image" src="/dist/images/illustration-1.svg" alt="hero image picture" />
+        </div>
+       </section>
+       <svg id="wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L60,218.7C120,213,240,203,360,181.3C480,160,600,128,720,122.7C840,117,960,139,1080,165.3C1200,192,1320,224,1380,240L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+      </header>
+
+      
+ <section>
+        <div class="row2">
+          <div class="text-container">
+          <h1 class="title">Stay productive, whereever you are</h1>
+          <p class="text"> 
+            Never let location to be an issue when accessing your files. Fylo has you covered for all of your life storage needs.
+          
+          </p>   
+          <p class="text-2">
+            Securely share files and folders with friends, family and colleagues for live collaboration. No email attachements required!
+          </p>
+              <a class="fylo-how-link" href="#">
+          See how Fylo works
+        </a>
+        </div>
+          <!-- <img src="/dist/images/illustration-1.svg" alt="Illustration" /> -->
+       
+        <div class="testimonial">
+          <p class="testimonial-text">
+            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine
+          </p>
+          <div class="user-details">
+            <div class="testimonial-avatar">
+               <img src="/dist/images/avatar-testimonial.jpg">
+            </div>
+             <div class="reviewer-info">
+               <h3 class="reviewer-name">
+              Kyle Burton
+            </h3>
+            <h4 class="reviewer-title">
+              Founder & CEO, Huddle
+            </h4>
+            </div>
+
+          </div>
+           
+           
+      
+        </div>
+     
+      </div>
+       </section>
+       <br>
+        <br>
+        <br>
+            <footer> 
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">SOLOMON FISSEHAYE TEWELDE</a>.
+          >Frontend Mentor</a>. Coded by <a href="#">SOLOMON FISSEHAYE TEWELDE</a>.
       </p>
     </footer>
   </body>

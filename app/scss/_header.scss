@@ -1,16 +1,14 @@
 @import "fonts";
 
-.header-container {
-  height: 50%; //todo header container height is becoming smaller than the content height in smaller screens
-  display: block;
-  border: 2px solid red;
+.main {
+  // border: 7px solid green;
   background: linear-gradient(0.25turn, $darkBlue, 75%, $softBlue);
-  .blue-gradient-hero {
+
+  .logo-navigation {
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
-    padding: 8px;
-
+    padding: 1rem;
+    // border: 7px solid yellow;
     #logo {
       width: 166px;
       height: 49px;
@@ -25,10 +23,29 @@
           color: $white;
           font-size: 1rem;
           font-family: $primaryFont;
-          font-size: 1rem;
           font-weight: 500;
         }
       }
     }
+    @media screen and (max-width: 768px) {
+      #logo {
+        width: 90px;
+        height: 30px;
+      }
+      nav {
+        li {
+          a,
+          button {
+            color: $white;
+            font-size: 0.7rem;
+            font-family: $primaryFont;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  #wave-svg {
+    display: block;
   }
 }
