@@ -7,11 +7,13 @@
   .logo-navigation {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 2rem;
     // border: 7px solid yellow;
+
     #logo {
       width: 166px;
       height: 49px;
+      margin-left: 1rem;
     }
 
     nav {
@@ -24,6 +26,7 @@
           font-size: 1rem;
           font-family: $primaryFont;
           font-weight: 500;
+          margin-left: 1rem;
         }
       }
     }

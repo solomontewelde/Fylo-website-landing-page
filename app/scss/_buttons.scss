@@ -1,10 +1,11 @@
-@mixin button($buttonColor: green, $font-color: $white) {
+@mixin button($buttonColor: green, $font-color: $white, $content: "Default") {
+  content: $content;
   color: $font-color;
   background-color: $buttonColor;
   border: none;
   border-radius: 2px;
   padding: 10px 32px;
-  margin-left: 30px;
+  // margin-left: 30px;
   box-shadow: 1px 1px 7px rgba(40, 35, 133, 0.7);
   cursor: pointer;
   transition: background-color 0.1s ease-in-out;
