@@ -7,12 +7,11 @@
   display: flex;
   padding: 1rem;
   // border: 7px dashed red;
+  padding: 4rem;
   align-items: center;
   .hero-text-container {
     width: 50%;
-    margin-right: 50px;
     // border: 3px solid $white;
-    padding-left: 1rem;
     .hero-title {
       font-size: 2rem;
       color: $white;
@@ -25,7 +24,7 @@
       color: white;
       margin-bottom: 21px;
     }
-    form {
+    .email-form {
       display: flex;
       height: 40px;
       padding-left: 4px;
@@ -62,8 +61,8 @@
   @media screen and (max-width: 768px) {
     flex-direction: column;
     .hero-image {
-      width: 80%;
-      height: 50%;
+      width: 50vh;
+      height: 40vh;
       order: 1;
     }
     .hero-text-container {

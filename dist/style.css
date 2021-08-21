@@ -79,8 +79,8 @@ a.button.blue-button:hover {
 }
 
 .main {
-  background: -webkit-gradient(linear, left top, right top, from(#282385), color-stop(75%), to(#bbb8fa));
-  background: linear-gradient(0.25turn, #282385, 75%, #bbb8fa);
+  background: -webkit-gradient(linear, left top, right top, from(#201c69), color-stop(75%), to(#bbb8fa));
+  background: linear-gradient(0.25turn, #201c69, 75%, #bbb8fa);
 }
 
 .main .logo-navigation {
@@ -90,7 +90,7 @@ a.button.blue-button:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2rem;
+  padding: 2rem 4rem;
 }
 
 .main .logo-navigation #logo {
@@ -131,33 +131,36 @@ a.button.blue-button:hover {
   display: block;
 }
 
-.row2 {
+.row2-container {
+  padding: 4rem;
+}
+
+.row2-container .row2-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 5rem;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
-.row2 .main-content-wrapper {
+.row2-container .row2-content .main-content-wrapper {
   width: 50%;
 }
 
-.row2 .main-content-wrapper .text-container {
+.row2-container .row2-content .main-content-wrapper .text-container {
   width: 90%;
   margin-bottom: 1rem;
 }
 
-.row2 .main-content-wrapper .text-container .title {
+.row2-container .row2-content .main-content-wrapper .text-container .title {
   color: black;
   font-size: 2rem;
   color: black;
   margin-bottom: 1rem;
 }
 
-.row2 .main-content-wrapper .text-container .text {
+.row2-container .row2-content .main-content-wrapper .text-container .text {
   width: 100%;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
@@ -167,33 +170,26 @@ a.button.blue-button:hover {
   color: black;
 }
 
-.row2 .main-content-wrapper .text-container .fylo-how-link {
-  color: green;
+.row2-container .row2-content .main-content-wrapper .text-container .fylo-how-link {
+  color: #559155;
   font-size: 1rem;
+  background: url("/dist/images/icon-arrow.svg") no-repeat center right;
+  padding-right: 30px;
+  border-bottom: 2px solid;
 }
 
-.row2 .main-content-wrapper .text-container .fylo-how-link:after {
-  content: "";
-  display: inline-block;
-  width: 100px;
-  margin-left: 0;
-  height: 50px;
-  background: url("/dist/images/icon-arrow.svg") no-repeat center;
-}
-
-.row2 .main-content-wrapper .testimonial {
+.row2-container .row2-content .main-content-wrapper .testimonial {
   background-color: white;
-  width: 395px;
-  height: 250px;
+  width: 30vw;
+  height: 40vh;
   border-radius: 10px;
   padding: 2rem;
   -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
           box-shadow: 0 10px 50px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   max-width: 100%;
-  float: left;
 }
 
-.row2 .main-content-wrapper .testimonial .testimonial-text {
+.row2-container .row2-content .main-content-wrapper .testimonial .testimonial-text {
   color: black;
   font-weight: 500;
   font-family: Raleway;
@@ -202,13 +198,13 @@ a.button.blue-button:hover {
   letter-spacing: 1px;
 }
 
-.row2 .main-content-wrapper .testimonial .testimonial-text::before {
+.row2-container .row2-content .main-content-wrapper .testimonial .testimonial-text::before {
   content: open-quote;
   font-size: 4rem;
   display: block;
 }
 
-.row2 .main-content-wrapper .testimonial .user-details {
+.row2-container .row2-content .main-content-wrapper .testimonial .user-details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,7 +213,7 @@ a.button.blue-button:hover {
           align-items: center;
 }
 
-.row2 .main-content-wrapper .testimonial .user-details .testimonial-avatar {
+.row2-container .row2-content .main-content-wrapper .testimonial .user-details .testimonial-avatar {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -225,58 +221,54 @@ a.button.blue-button:hover {
   overflow: hidden;
 }
 
-.row2 .main-content-wrapper .testimonial .user-details .testimonial-avatar img {
+.row2-container .row2-content .main-content-wrapper .testimonial .user-details .testimonial-avatar img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.row2 .main-content-wrapper .testimonial .user-details .reviewer-info {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.row2 .main-content-wrapper .testimonial .user-details .reviewer-info .reviewer-title {
+.row2-container .row2-content .main-content-wrapper .testimonial .user-details .reviewer-title {
   font-size: 0.8rem;
   font-weight: 400;
 }
 
-.row2 img {
+.row2-container .row2-content img {
   width: 40%;
   height: 40%;
   margin: auto auto;
   vertical-align: center;
 }
 
-.row3 {
+.row3-container {
+  background-color: #585989;
+  padding: 2rem 4rem 2rem;
+  height: 35vh;
+}
+
+.row3-container .row3-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  height: 230px;
-  background-color: #585989;
-  padding: 3rem;
 }
 
-.row3 .text-wrapper {
+.row3-container .row3-content .text-wrapper {
   width: 40%;
-  margin-right: 15rem;
+  margin-right: 20rem;
 }
 
-.row3 .text-wrapper .title {
+.row3-container .row3-content .text-wrapper .title {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
-.row3 .text-wrapper .text {
+.row3-container .row3-content .text-wrapper .text {
   color: #fff;
   letter-spacing: 1px;
   font-weight: 200;
 }
 
-.row3 .access-form {
+.row3-container .row3-content .access-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -289,7 +281,7 @@ a.button.blue-button:hover {
   margin-top: 1rem;
 }
 
-.row3 .access-form input {
+.row3-container .row3-content .access-form input {
   height: 2rem;
   border-radius: 4px;
   font-family: Raleway;
@@ -297,7 +289,7 @@ a.button.blue-button:hover {
   padding: 8px;
 }
 
-.row3 .access-form button {
+.row3-container .row3-content .access-form button {
   content: "Get started for free";
   color: #fff;
   background-color: #3065f8;
@@ -315,8 +307,96 @@ a.button.blue-button:hover {
   width: max-content;
 }
 
-.row3 .access-form button:hover {
+.row3-container .row3-content .access-form button:hover {
   background-color: #1753f7;
+}
+
+.footer-container {
+  height: 40vh;
+  background-color: #201c69;
+  padding: 4rem;
+}
+
+.footer-container img {
+  width: 160px;
+  height: 49px;
+  margin-bottom: 1rem;
+}
+
+.footer-container .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-container .footer .footer-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-container .footer .footer-column a {
+  color: whitesmoke;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.footer-container .footer .footer-column a:hover {
+  color: grey;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-container .footer .column-1 a:first-child {
+  background: url("/dist/images/icon-phone.svg") left center no-repeat;
+  padding-left: 30px;
+}
+
+.footer-container .footer .column-1 a:nth-child(2) {
+  background: url("/dist/images/icon-email.svg") left center no-repeat;
+  padding-left: 30px;
+}
+
+.footer-container .footer .column-4 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 20%;
+  color: white;
+}
+
+.footer-container .footer .column-4 .social-icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  margin-left: 1.5rem;
+}
+
+.footer-container .footer .column-4 i {
+  font-size: 1rem;
 }
 
 .hero {
@@ -324,6 +404,7 @@ a.button.blue-button:hover {
   display: -ms-flexbox;
   display: flex;
   padding: 1rem;
+  padding: 4rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -331,8 +412,6 @@ a.button.blue-button:hover {
 
 .hero .hero-text-container {
   width: 50%;
-  margin-right: 50px;
-  padding-left: 1rem;
 }
 
 .hero .hero-text-container .hero-title {
@@ -351,7 +430,7 @@ a.button.blue-button:hover {
   margin-bottom: 21px;
 }
 
-.hero .hero-text-container form {
+.hero .hero-text-container .email-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -363,7 +442,7 @@ a.button.blue-button:hover {
           justify-content: space-between;
 }
 
-.hero .hero-text-container form .input-field {
+.hero .hero-text-container .email-form .input-field {
   -webkit-box-flex: 4;
       -ms-flex-positive: 4;
           flex-grow: 4;
@@ -377,7 +456,7 @@ a.button.blue-button:hover {
   min-width: 0;
 }
 
-.hero .hero-text-container form button {
+.hero .hero-text-container .email-form button {
   -webkit-box-flex: 3;
       -ms-flex-positive: 3;
           flex-grow: 3;
@@ -402,8 +481,8 @@ a.button.blue-button:hover {
             flex-direction: column;
   }
   .hero .hero-image {
-    width: 80%;
-    height: 50%;
+    width: 50vh;
+    height: 40vh;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
