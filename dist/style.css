@@ -79,8 +79,8 @@ a.button.blue-button:hover {
 }
 
 .main {
-  background: -webkit-gradient(linear, left top, right top, from(#201c69), color-stop(75%), to(#bbb8fa));
-  background: linear-gradient(0.25turn, #201c69, 75%, #bbb8fa);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(75%), to(#bbb8fa));
+  background: linear-gradient(0.25turn, #fff, 75%, #bbb8fa);
 }
 
 .main .logo-navigation {
@@ -416,7 +416,7 @@ a.button.blue-button:hover {
 
 .hero .hero-text-container .hero-title {
   font-size: 2rem;
-  color: #fff;
+  color: black;
 }
 
 .hero .hero-text-container .hero-text {
@@ -426,7 +426,7 @@ a.button.blue-button:hover {
           justify-content: right;
   font-size: 1rem;
   font-weight: 400;
-  color: white;
+  color: black;
   margin-bottom: 21px;
 }
 
