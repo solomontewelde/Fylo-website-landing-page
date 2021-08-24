@@ -7,7 +7,7 @@
 @import "buttons";
 @import "header";
 @mixin mobile-design {
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 468px) {
     .main {
       .logo-navigation {
         padding: 1rem 2rem;
@@ -43,7 +43,7 @@
         width: 80%;
         height: auto;
         background-size: cover;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
       }
       .hero-text-container {
         order: 2;
