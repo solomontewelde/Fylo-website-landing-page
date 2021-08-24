@@ -1,5 +1,4 @@
 @import "fonts";
-
 .main {
   // border: 7px solid green;
   background: linear-gradient(0.25turn, whitesmoke, 75%, $softBlue);
@@ -7,13 +6,13 @@
   .logo-navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2rem 4rem;
     // border: 7px solid yellow;
 
     #logo {
       width: 166px;
       height: 49px;
-      margin-left: 1rem;
     }
 
     nav {
@@ -30,23 +29,6 @@
         }
         a {
           color: black;
-        }
-      }
-    }
-    @media screen and (max-width: 768px) {
-      #logo {
-        width: 90px;
-        height: 30px;
-      }
-      nav {
-        li {
-          a,
-          button {
-            color: $white;
-            font-size: 0.7rem;
-            font-family: $primaryFont;
-            font-weight: 500;
-          }
         }
       }
     }

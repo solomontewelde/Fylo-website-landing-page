@@ -79,8 +79,8 @@
     img {
       width: 40%;
       height: 40%;
-      margin: auto auto;
-      vertical-align: center;
+      // margin: auto auto;
+      //vertical-align: center;
     }
   }
 }
@@ -93,6 +93,7 @@
     display: flex;
     .text-wrapper {
       width: 40%;
+      min-width: 200px;
       margin-right: 14rem;
       .title {
         font-size: 1.5rem;
@@ -107,10 +108,11 @@
     .access-form {
       display: flex;
       flex-direction: column;
-      //width: 30%;
+      width: 30%;
       margin-top: 1rem;
       input {
-        width: 350px;
+        //width: 350px;
+        min-width: 100px;
         height: 2rem;
         border-radius: 4px;
         font-family: $primaryFont;
@@ -125,7 +127,7 @@
         );
 
         margin-top: 8px;
-        width: max-content;
+        width: fit-content;
       }
     }
   }
