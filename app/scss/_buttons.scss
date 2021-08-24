@@ -10,7 +10,7 @@
   cursor: pointer;
   transition: background-color 0.1s ease-in-out;
   &:hover {
-    background-color: darken($buttonColor, 5%);
+    background-color: lighten($buttonColor, 5%);
   }
 }
 button,

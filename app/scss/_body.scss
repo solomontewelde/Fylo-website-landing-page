@@ -8,7 +8,7 @@
       width: 50%;
       .text-container {
         width: 90%;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
 
         .title {
           color: black;
@@ -21,7 +21,7 @@
           width: 100%;
           justify-content: right;
           font-size: 1rem;
-          font-weight: 600;
+          font-weight: 400;
           color: black;
         }
 
@@ -35,16 +35,15 @@
       }
       .testimonial {
         background-color: white;
-        width: 30vw;
-        height: 40vh;
+        width: 392px;
+        height: fit-content;
         border-radius: 10px;
         padding: 2rem;
         box-shadow: 0 10px 50px rgba(0, 0, 0, 0.19),
           0 6px 6px rgba(0, 0, 0, 0.23);
-        max-width: 100%;
         .testimonial-text {
           color: black;
-          font-weight: 500;
+          font-weight: 400;
           font-family: $primaryFont;
           margin-bottom: 1.5rem;
           line-height: 1.5rem;
@@ -88,13 +87,13 @@
 
 .row3-container {
   background-color: $desaturatedBlue;
-  padding: 2rem 4rem 2rem;
-  height: 35vh;
+  padding: 4rem;
+  //height: fit-content;
   .row3-content {
     display: flex;
     .text-wrapper {
       width: 40%;
-      margin-right: 20rem;
+      margin-right: 14rem;
       .title {
         font-size: 1.5rem;
         margin-bottom: 1rem;
@@ -109,9 +108,9 @@
       display: flex;
       flex-direction: column;
       width: 30%;
-      height: 200px;
       margin-top: 1rem;
       input {
+        width: 350px;
         height: 2rem;
         border-radius: 4px;
         font-family: $primaryFont;
@@ -133,7 +132,7 @@
 }
 
 .footer-container {
-  height: 40vh;
+  height: fit-content;
   background-color: $darkBlue;
   padding: 4rem;
   img {
@@ -143,7 +142,7 @@
   }
   .footer {
     display: flex;
-    width: 100%;
+    width: 80%;
     flex-wrap: wrap;
     //border: 1px dashed $white;
     justify-content: space-between;
@@ -172,7 +171,7 @@
     .column-4 {
       // background-color: yellow;
       flex-direction: row;
-      width: 20%;
+      //width: 20%;
       color: white;
       .social-icon-container {
         display: flex;
@@ -186,7 +185,7 @@
         margin-left: 1.5rem;
       }
       i {
-        font-size: 1rem;
+        font-size: 0.8rem;
       }
     }
   }

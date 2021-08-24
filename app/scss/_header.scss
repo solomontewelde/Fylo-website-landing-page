@@ -2,7 +2,7 @@
 
 .main {
   // border: 7px solid green;
-  background: linear-gradient(0.25turn, $white, 75%, $softBlue);
+  background: linear-gradient(0.25turn, whitesmoke, 75%, $softBlue);
 
   .logo-navigation {
     display: flex;
@@ -50,5 +50,6 @@
   }
   #wave-svg {
     display: block;
+    width: 100%;
   }
 }

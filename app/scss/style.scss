@@ -10,10 +10,10 @@
   padding: 4rem;
   align-items: center;
   .hero-text-container {
-    width: 50%;
+    width: 40%;
     // border: 3px solid $white;
     .hero-title {
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: black;
     }
     .hero-text {
@@ -27,24 +27,23 @@
     .email-form {
       display: flex;
       height: 40px;
-      padding-left: 4px;
+      //padding-left: 4px;
       padding-right: 4px;
-      justify-content: space-between;
 
       .input-field {
-        flex-grow: 4;
+        //flex-grow: 4;
         border-radius: 2px;
         padding: 12px;
         border: 1px solid #ccc;
         width: 60%;
-        height: 100%;
+        //height: 100%;
         font-family: $primaryFont;
         outline-color: $softBlue;
-        min-width: 0;
       }
       button {
-        flex-grow: 3;
-        height: 100%;
+        //flex-grow: 3;
+        width: 40%;
+        // height: 100%;
         margin-left: 10px;
         border-radius: 4px;
         padding: 2px;
