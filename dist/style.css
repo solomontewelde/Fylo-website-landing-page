@@ -113,6 +113,10 @@ a.button.blue-button:hover {
   margin-left: 1rem;
 }
 
+.main .logo-navigation nav li a {
+  color: black;
+}
+
 @media screen and (max-width: 768px) {
   .main .logo-navigation #logo {
     width: 90px;
@@ -277,7 +281,6 @@ a.button.blue-button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 30%;
   margin-top: 1rem;
 }
 
@@ -417,7 +420,7 @@ a.button.blue-button:hover {
 }
 
 .hero .hero-text-container .hero-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: black;
 }
 
