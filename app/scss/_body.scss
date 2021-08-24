@@ -4,6 +4,10 @@
     display: flex;
     align-content: center;
     margin-bottom: 4rem;
+    img {
+      width: 40%;
+      height: 40%;
+    }
     .main-content-wrapper {
       width: 50%;
       .text-container {
@@ -23,14 +27,6 @@
           font-size: 1rem;
           font-weight: 400;
           color: black;
-        }
-
-        .fylo-how-link {
-          color: rgb(85, 145, 85);
-          font-size: 1rem;
-          background: url("/dist/images/icon-arrow.svg") no-repeat center right;
-          padding-right: 30px;
-          border-bottom: 2px solid;
         }
       }
       .testimonial {
@@ -76,11 +72,13 @@
         }
       }
     }
-    img {
-      width: 40%;
-      height: 40%;
-      // margin: auto auto;
-      //vertical-align: center;
+
+    .fylo-how-link {
+      color: rgb(85, 145, 85);
+      font-size: 1rem;
+      background: url("/dist/images/icon-arrow.svg") no-repeat center right;
+      padding-right: 30px;
+      border-bottom: 2px solid;
     }
   }
 }

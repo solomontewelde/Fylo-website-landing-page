@@ -11,7 +11,7 @@
     .main {
       .logo-navigation {
         padding: 1rem 2rem;
-        border: 7px solid blue;
+        //border: 7px solid blue;
         #logo {
           width: 70px;
           height: 30px;
@@ -80,32 +80,94 @@
 
     /////////////// Body /////////////
     .row2-container {
-      //flex-direction: column;
       padding: 2rem;
-      border: 7px solid yellowgreen;
-      align-content: center;
+      //border: 7px solid yellowgreen;
       .row2-content {
         flex-direction: column;
+        width: 100%;
+        img {
+          width: 80%;
+          height: auto;
+          background-size: cover;
+          margin: 0 auto;
+          margin-bottom: 2rem;
+        }
         .main-content-wrapper {
+          width: 100%;
           order: 2;
           .text-container {
+            width: 100%;
             .title {
               font-size: 1rem;
+              text-align: center;
             }
             .text {
               font-size: 0.8rem;
             }
+            .text-2 {
+              margin-bottom: 2rem;
+            }
           }
+
           .testimonial {
+            width: 100%;
+            height: fit-content;
+            padding: 1rem;
+            .testimonial-text {
+              font-size: 0.8rem;
+            }
+            .testimonial-text::before {
+              font-size: 2rem;
+            }
+          }
+        }
+        .fylo-how-link {
+          margin: auto auto; //not working
+          background-color: greenyellow;
+        }
+      }
+    }
+
+    .row3-container {
+      padding: 2rem;
+      .row3-content {
+        flex-direction: column;
+        align-items: center;
+        .text-wrapper {
+          margin-right: 0;
+          width: 90%;
+          text-align: center;
+          .title {
+            font-size: 1rem;
+          }
+          .text {
+            font-size: 0.8rem;
+            text-align: center;
+          }
+        }
+        .access-form {
+          width: 80%;
+          input {
+            width: 100%;
+          }
+          button {
             width: 100%;
           }
         }
-        img {
-          order: 1;
-          width: 40%;
-          height: 40%;
-          margin: auto auto;
-          vertical-align: center;
+      }
+    }
+    .footer-container {
+      padding: 2rem;
+      .footer {
+        flex-direction: column;
+      }
+      .footer-column {
+        margin-bottom: 1rem;
+      }
+      .column-4 {
+        align-self: center;
+        .social-icon-container {
+          margin-left: 1rem;
         }
       }
     }
