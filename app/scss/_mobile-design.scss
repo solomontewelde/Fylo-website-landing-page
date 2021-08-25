@@ -13,8 +13,8 @@
         padding: 1rem 2rem;
         //border: 7px solid blue;
         #logo {
-          width: 70px;
-          height: 30px;
+          width: 126px;
+          height: 45px;
         }
         nav {
           li {
@@ -65,11 +65,15 @@
         .email-form {
           flex-direction: column;
           .input-field {
+            box-sizing: border-box;
+            min-width: none;
             width: 100%;
             height: 40px;
             margin-bottom: 0.5rem;
           }
           button {
+            box-sizing: border-box;
+            min-width: none;
             width: 100%;
             height: 40px;
             margin-left: 0;
@@ -123,7 +127,6 @@
         }
         .fylo-how-link {
           margin: auto auto; //not working
-          background-color: greenyellow;
         }
       }
     }
@@ -148,9 +151,13 @@
         .access-form {
           width: 80%;
           input {
+            box-sizing: border-box;
+            min-width: none;
             width: 100%;
           }
           button {
+            box-sizing: border-box;
+            min-width: none;
             width: 100%;
           }
         }
@@ -158,11 +165,19 @@
     }
     .footer-container {
       padding: 2rem;
+      img {
+        width: 126px;
+        height: 45px;
+        margin-bottom: 2rem;
+      }
       .footer {
         flex-direction: column;
       }
       .footer-column {
         margin-bottom: 1rem;
+        a {
+          margin-bottom: 0.5rem;
+        }
       }
       .column-4 {
         align-self: center;

@@ -15,6 +15,7 @@
 }
 button,
 a.button {
+  box-sizing: content-box;
   &.green-button {
     @include button(green);
   }
