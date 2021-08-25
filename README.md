@@ -1,3 +1,3 @@
-This is a front-end challenge by Frontend Mentor. I have implemented a responsive design for both mobile and desktop version for the website landing page.
+This is a front-end challenge by Frontend Mentor. I have implemented a responsive design for both mobile and desktop versions of the landing page of a website.
 
 
